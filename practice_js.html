@@ -1,0 +1,104 @@
+
+(function() {
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice JS</title>
+</head>
+<body>
+	<script> 
+	"use strict";
+
+	// 	sayHello1(); // Greetings from sayHello1.
+	// 	//sayHello2(); // Uncaught TypeError: Property 'sayHello2' of object [object Object] is not a function
+
+	// 	// declare a function in the global scope
+	// 	function sayHello1 () {
+	// 	  alert('Greetings from sayHello1.');
+	// 	}
+
+	// 	// assign a function to a variable named sayHello2
+	// 	 var sayHello2 = function () {
+	// 	  alert('Greetings from sayHello2.');
+	// 	};
+	// 	//sayHello2();
+	// //alert(sayHello1);
+
+	// var todoList= ["Take out the trash", "Clean the car", 'Pay the bills'];
+
+	// console.log("My to do list: ")
+	// console.log(todoList);
+	// console.log("Completing the last item: " + todoList[todoList.length - 1]);
+
+	// var doneItem = todoList.pop();
+
+	// console.log("Task complete: " + doneItem);
+	// console.log(todoList);
+	// console.log("Completing the first item: " + todoList[0]);
+
+	// var doneItem = todoList.shift();
+
+	// console.log("Task complete: " + doneItem);
+	// console.log(todoList);
+
+	var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+
+	// var index = colors.indexOf('green');
+
+	// console.log(index);
+
+	// index = colors.indexOf('red');
+
+	// console.log(index);
+
+	// index = colors.lastIndexOf('red');
+
+	// console.log(index);
+
+	console.log(colors);
+
+	console.log("Removing the first two colors: ");
+
+	var removed = colors.splice(0, 2);
+
+	console.log(removed);
+
+	console.log(colors);
+
+	removed = colors.splice(colors.indexOf('green'), 1);
+
+	console.log(removed);
+
+	console.log(colors);
+
+	console.log("Adding green and black after yellow");
+
+	colors.splice(colors.indexOf('yellow') + 1, 0, 'green', 'black');
+
+	console.log(colors);
+
+	colors.splice(colors.indexOf('indigo'), 2, 'purple');	
+
+	console.log(colors);
+
+	console.log("Reversing the colors array");
+
+	colors.reverse();
+
+	console.log(colors);
+
+
+	console.log("Sorting the colors array");
+
+	colors.sort();
+
+	console.log(colors);
+
+	</script>
+
+</body>
+</html>
+})();
+

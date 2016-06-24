@@ -1,0 +1,11 @@
+/*
+this content is stored in a file named "site.css"
+in a directory named "css" in the web root
+*/
+
+
+
+h1.fancy-header {
+	color: blue;
+}
+

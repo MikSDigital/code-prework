@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>For Loop JS</title
+
+	</head>
+	<body>
+		<script>
+
+		var random1 = (Math.floor(Math.random()*25)+1);
+		var random2 = (2 * random1);
+
+		if (random2 % 2 == 0) {
+
+		
+		console.log('Random odd number to skip is: ' + random2);
+		
+		}
+		for (var i = 1; i < 100; i++) {
+
+			if (random2 == i) {
+    	 
+    	 		console.log('Yikes! Skipping number: ' + random2);
+    	
+    			continue;
+    		}
+
+    		if (i % 2 == 0) {
+        
+        		console.log('Here is an odd number: ' + i);
+        
+    		}
+    		if (i >= 49){
+    			break;
+    		}
+    	}
+    	
+    	
+		</script>
+	</body>
+</html>

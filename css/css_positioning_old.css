@@ -1,0 +1,120 @@
+/*---------------Container dimensions--------------*/
+
+#container {
+	width: 500px;
+	height: 600px;
+	position: relative;
+	float: left;
+	}
+
+#container2 {
+	width: 500px;
+	height: 200px;
+	position: relative;
+	}
+
+/*------------------Header Padding--------------------*/
+
+h1 {
+	padding-bottom: 50px;
+	margin: 0px;
+	}
+
+/*-------------------Arrow dimensions-----------------*/
+
+.arrow {
+	background-image: url(/Users/MC/Desktop/Codeup/img/codeup-arrow.png);
+	width: 58px;
+	height: 50px;
+	position: absolute;
+	}
+
+.arrow_red {
+	top: 50px;
+	left: 55px;
+	}
+
+.arrow_orange {
+	top: 50px;
+	left: 180px;
+	}
+
+.arrow_yellow {
+	top: 50px;
+	left: 310px;
+	}
+
+.arrow_green {
+	top: 170px;
+	left: 55px;
+	}
+
+.arrow_blue {
+	top: 170px;
+	left: 180px;
+	}
+
+.arrow_violet {
+	top: 170px;
+	left: 310px;
+	}
+
+
+/*---------------------box dimensions--------------------*/
+
+div:nth-child(5) {
+	float: left;
+	clear: left;
+}
+
+.box {
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	font-weight: 550;
+	color: white;
+	}
+
+.ribbon {
+	background-image: url(/Users/MC/Desktop/Codeup/img/codeup-ribbon.png);
+	width: 150px;
+	height: 149px;
+	/*float: right;
+	clear: right;*/
+	margin-left: 400px;
+	position: absolute;
+}
+
+#box-red {
+	background-color: red;
+	float: left;
+	}
+
+#box-orange {
+	background-color: orange;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	float: left;
+	}
+
+#box-yellow {
+	background-color: yellow;
+	margin-left: 50px;
+	float: left;
+	}
+#box-green {
+	background-color: green;
+	/*float: left;*/
+	/*clear: left;*/
+	}
+#box-blue {
+	background-color: blue;
+	margin-left: 50px;
+	float: left;
+	}
+#box-violet {
+	background-color: violet;
+	float: left;
+	margin-left: 50px;
+	}

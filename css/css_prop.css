@@ -1,0 +1,49 @@
+h1, h2, h3, h4, h5, h6 { 
+	color: blue;
+	text-decoration: underline;
+	 }
+
+table {
+	background-color: silver;
+}	 
+
+blockquote {
+	
+	background-color: #silver;
+  	border-left: 4px solid #000;
+  	height: 250px;
+  	width: 200px;
+  	margin: 10px;
+
+}
+.aliquote {
+	color: blue;
+}
+
+.ali  {
+	height: 360px;
+	width: 800px;
+	padding: 20px;
+	border-style: solid;
+	background-image: url(http://d152j5tfobgaot.cloudfront.net/wp-content/uploads/2016/06/muhammadali.jpg);
+	
+}
+
+.os {
+	list-style: circle;
+	font-size: 30px
+}
+
+.food {
+	list-style: square inside;
+	font-size: 30px
+}
+
+h1, h2 {
+	font-family: Helvetica, Courier, Times;
+}
+
+td {
+	padding-left: 20px;
+	font-family: monospace;
+}

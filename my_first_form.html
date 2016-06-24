@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My First HTML form</title>
+    </head>
+    <body>
+        <h1> User Login </h1>   
+            <form method="POST" action="http://requestb.in/15fz1u81">
+                <p>
+                    <label for="username">Username</label>
+                    <input id="username" name="username" type="text" placeholder="Enter User Name">
+                </p>
+                <p>
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password" placeholder="Enter password">
+                </p>
+                <p>
+                    <input type="submit" name="hello">
+                    <input type="submit" value="Login with input submit">
+                    <button type="submit">Login with button input</button>
+                </p>
+            </form>
+        <h1> Compose and Email </h1>
+            <form method="POST" action="http://requestb.in/1ih0dr81">
+                <p>
+                    <label for="To">To</label>
+                    <input type="text" name="To" id="To" placeholder="Enter Email Address">
+                </p>
+                <p>
+                    <label for="From">From</label>
+                    <input type="text" name="From" id="From" placeholder="Enter Email Address">
+                </p>
+                <p>
+                    
+                    <label for = "Subject">Subject</label>
+                    <textarea id="subject" name="subject" rows="1 cols="5" placeholder="Subject">
+                    </textarea>
+                </p>
+
+                <p>
+                    <label for="Body">Body</label>
+                    <textarea id="emailbody" name="emailbody" rows="5" cols="40" placeholder="Enter body of email">
+                    </textarea>
+                    
+                </p>
+                <p><button type="submit">Send</button></p>
+                  
+              
+
+                    <input type="checkbox" id="save_copy_to_folder" name="save_copy_to_folder" value="yes" >
+                    <label for="save_copy_to_folder">Save a copy to sent folder!</label>
+
+            </form>
+
+        <h1>Multiple Choice Test</h1>
+
+            <form method="POST" action="http://requestb.in/15fz1u81">
+                
+                 <p>What is the name of the first president of the US?</p>
+
+                <label>
+
+                    <input type="radio" name="q1" value="Bill Clinton"> Bill Clinton
+
+                </label>
+
+                <label>
+
+                    <input type="radio" name="q1" value="George Gervin"> George Gervin
+
+                </label>
+
+                <label>
+
+                    <input type="radio" name="q1" value="Dana Carvey"> Dana Carvey
+
+                </label>
+
+                <label>
+
+                    <input type="radio" name="q1" value="George Washington"> George Washington
+
+                </label>
+
+                    <p>What state is the city of Helotes in?</p>
+
+                <label>
+
+                    <input type="radio" name="q2" value="New Mexico"> New Mexico
+
+                </label>
+
+                <label>
+
+                    <input type="radio" name="q2" value="Georgia"> Georgia
+
+                </label>
+
+                <label>
+
+                    <input type="radio" name="q2" value="Colorado"> Colorado
+
+                </label>
+
+                <label>
+
+                    <input type="radio" name="q2" value="Texas"> Texas
+
+                </label>
+                <p>
+                    
+                   <button type="submit">Submit</button> 
+                   <input type="submit" name="hello">
+                </p>
+
+                <label for="os">What operating systems have you used? </label>
+                <p> 
+                    <select id="os" name="os[]" multiple>
+                        <option value="linus">Linux</option>
+                        <option value="osx">OS X</option>
+                        <option value="windows">Windows</option>
+                    </select>
+                </p>
+            </form>
+
+            <form method="POST" action="http://requestb.in/15fz1u81">
+                
+                <h1>Select Testing</h1>
+
+                <label for="lotto">Did you win the lottery?</label>
+                <select id="lotto" name="lotto[]">
+                    <option value="1">Yes</option>
+                    <option selected value="0"> No </option>
+                </select>
+                  <button type="submit">Submit with button input</button>
+            </form>
+    </body>
+</html>
+
